@@ -1,2 +1,2 @@
 # Arabic-Preprocessing-
-Preprocesses Arabic 
+This code iterates through all the files in a specified directory, processing both Excel (.xlsx) and text (.txt) files to normalize Arabic text content. For Excel files, it reads the data into a DataFrame, then applies a series of Arabic text normalization functions to clean and standardize the text in each cell, and finally saves the modified DataFrame back to the file. For text files, the code reads each line, normalizes the text by removing unnecessary characters, diacritics, punctuation, and normalizing certain Arabic letters, and then writes the cleaned text back to the original file. The goal is to prepare the text by standardizing the script and removing unwanted artifacts for further processing or analysis.
